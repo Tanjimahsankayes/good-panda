@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Good Panda</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon"> -->
 
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-</style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
 
 </head>
+
 <body class="poppins-font">
     <header>
         <div class="logo">
@@ -21,17 +27,137 @@
         </div>
     </header>
 
-    <section>
-        <div class="text_side">
-            <p class="heading_text">Mi LED TV 4A PRO 32</p>
-            <p class="para_text inter-font">Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia consequat duis enim velit
-            mollit. <br> Exercitation veniam consequat sunt nostrud amet.</p>
-            <p class="price">$1289</p>
-            <button type="button" class="btn">BUY NOW</button>
+    <main>
+        <!-- hero section -->
+        <section>
+            <div class="text_side">
+                <p class="heading_text">Mi LED TV 4A PRO 32</p>
+                <p class="para_text inter-font">Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet
+                    sint. Velit officia consequat duis enim velit
+                    mollit. <br> Exercitation veniam consequat sunt nostrud amet.</p>
+                <p class="price">$1289</p>
+                <button type="button" class="btn">BUY NOW</button>
+            </div>
+            <div class="img_side">
+                <img src="Images/hero-tv.png" alt="Tv image">
+            </div>
+        </section>
+
+        <!-- category section -->
+        <div>
+            <div class="category-header poppins-font">
+                <h2>Categories</h2>
+            </div>
+
+            <div class="categories">
+                <div class="categories-section watach-section">
+                    <h3>Watch</h3>
+                    <img src="Images/category-watch.png" alt="">
+                </div>
+
+                <!-- bag section -->
+                <div class="categories-section bag-section">
+                    <h3>Bag</h3>
+                    <img src="Images/category-bag.png" alt="">
+                </div>
+
+                <!-- shoe section -->
+                <div class="categories-section shoe-section">
+                    <h3>Shoe</h3>
+                    <img src="Images/category-shoe.png" alt="">
+                </div>
+            </div>
+
         </div>
-        <div class="img_side">
-            <img src="Images/hero-tv.png" alt="Tv image">
+
+        <!-- Shoes section -->
+        <div class="shoes_heading poppins-font">
+            <h2>Shoes</h2>
         </div>
-    </section>
+
+        <br>
+
+        <div class="main_shoes poppins-font">
+
+            <div class="shoes">
+                <img src="Images/shoe-1.png" alt="">
+                <h3>Reebok Dart Men's Shoes</h3> <br>
+                <p class="inter-font">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br><br>
+                    <span class="prices">$1289</span>
+                </p>
+
+                <button type="button" class="buy_btn btn_pro"> BUY NOW &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="shoes">
+                <img src="Images/shoe-2.png" alt="">
+                <h3>Reebok Pump</h3> <br>
+                <p class="inter-font">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    <br><br>
+                    <span class="prices">$799</span>
+                </p>
+
+                <button type="button" class="buy_btn btn_pro"> BUY NOW &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="shoes">
+                <img src="Images/shoe-3.png" alt="">
+                <h3>Reebok All Terrain</h3> <br>
+                <p class="inter-font">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    <br><br>
+                    <span class="prices">$699</span>
+                </p>
+
+                <button type="button" class="buy_btn btn_pro"> BUY NOW &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+
+        <!-- Backpack Section -->
+
+
+        <div class="bags_heading poppins-font">
+            <h2>BackPack</h2>
+        </div> <br>
+
+
+        <div class="main_bag poppins-font">
+            <div class="bags">
+                <img src="Images/bag-1.png" alt="">
+                <h3>Ison Backpack</h3>
+                <p class="inter-font">Amet minim mollit non deserunt ullamco
+                    est sit aliqua dolor do amet sint.
+                    <br> <br>
+                    <span class="prices"> $699 </span>
+                </p>
+                <button type="button" class="buy_btn"> BUY NOW &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+
+            </div>
+            <div class="bags">
+                <img src="Images/bag-2.png" alt="">
+                <h3>Biaowang Backpack</h3>
+                <p class="inter-font">Amet minim mollit non deserunt ullamco
+                    est sit aliqua dolor do amet sint.
+                    <br> <br>
+                    <span class="prices"> $699 </span>
+                </p>
+                <button type="button" class="buy_btn"> BUY NOW &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+
+            </div>
+            <div class="bags">
+                <img src="Images/bag-3.png" alt="">
+                <h3>Dxyizu WS54 Smart</h3>
+                <p class="inter-font">Amet minim mollit non deserunt ullamco
+                    est sit aliqua dolor do amet sint.
+                    <br> <br>
+                    <span class="prices"> $699 </span>
+                </p>
+                <button type="button" class="buy_btn"> BUY NOW &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+
+            </div>
+        </div>
+    </main>
+
+
 </body>
+
 </html>

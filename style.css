@@ -1,13 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box  ;
+    box-sizing: border-box;
 }
 
 .poppins-font {
     font-family: "Poppins", sans-serif;
-   
-    font-style: normal;
 }
 
 .inter-font {
@@ -15,60 +13,62 @@
     font-style: normal;
 }
 
-body{
+body {
     margin: 0 80px;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
 }
 
-.logo img{
+.logo img {
     width: 100px;
     height: 40px;
     cursor: pointer;
 }
 
-.menuicon img{
+.menuicon img {
     width: 40px;
     cursor: pointer;
 }
 
-section{
+section {
     background-color: #FEEAE9;
     display: flex;
     padding: 50px;
     border-radius: 10px;
 }
 
-.text_side{
+.text_side {
     width: 660px;
 }
 
-.text_side .heading_text{
+.text_side .heading_text {
     word-spacing: -3px;
     padding-top: 40px;
     font-size: 50px;
     font-weight: bold;
 }
 
-.text_side .para_text{
+.text_side .para_text {
     color: #4E4E4E;
     font-size: 16px;
     line-height: 28px;
     padding: 20px 0;
 }
 
-.text_side .price{
+.text_side .price {
     color: #FF136F;
     font-weight: medium;
     font-size: 41px;
     padding: 15px 0;
 }
 
-.btn{
+
+
+.btn {
     color: white;
     outline: none;
     background: linear-gradient(rgba(255, 88, 155, 1) 0%, rgba(255, 19, 111, 1) 100%);
@@ -78,8 +78,146 @@ section{
     cursor: pointer;
 }
 
-.img_side img{
+.img_side img {
     width: 402px;
     cursor: pointer;
 }
 
+/* category section*/
+.category-header {
+    margin-top: 40px;
+}
+
+.category-header h2 {
+    font-weight: 600;
+}
+
+.categories {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+.categories-section {
+    display: flex;
+    justify-content: space-between;
+    width: 359px;
+    height: 80px;
+    padding: 15px;
+}
+
+.categories-section h3 {
+    font-weight: 500;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.watach-section {
+    background-color: #FF9C35;
+    border-radius: 10px;
+}
+
+.bag-section {
+    background-color: #FF136F;
+    border-radius: 10px;
+}
+
+.shoe-section {
+    background-color: #3F07F8;
+    border-radius: 10px;
+}
+
+/* shoes */
+
+.shoes_heading{
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+
+.main_shoes{
+    display: flex;
+    gap: 20px;
+}
+
+.main_shoes .shoes{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 435px;
+}
+
+.shoes img{
+    width: 336px;
+    height: 202px;
+}
+
+.shoes h3{
+    text-align: center;
+    font-weight: 600;
+}
+
+.shoes p{
+    color: #4E4E4E;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.prices{
+    color: #4E4E4E;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.buy_btn{
+    height: 52px;
+    width: 168px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+   
+}
+
+.btn_pro{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.bags_heading{
+    margin-top: 50px;
+}
+
+
+
+
+/* main bag */
+
+.main_bag{
+    display: flex;
+    gap: 20px;
+    text-align: center ;
+    margin-bottom: 80px;
+}
+
+.main_bag p{
+    color: #4E4E4E;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    padding: 20px;
+}
+
+.main_bag .bags{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bags img{
+    width: 290px;
+    height: 290px;
+}
