@@ -192,8 +192,6 @@ section {
 }
 
 
-
-
 /* main bag */
 
 .main_bag {
@@ -243,4 +241,197 @@ section {
     border-radius: 5px 0px 0px 5px;
     font-size: 16px;
     outline: none;
+}
+
+/* responsive */
+/* Laptop devices */
+@media (max-width: 1200px) {
+    body {
+        margin: 0 40px;
+    }
+
+    section {
+        padding: 40px;
+    }
+
+    .text_side {
+        width: 520px;
+    }
+
+    .text_side .heading_text {
+        font-size: 40px;
+    }
+
+    .text_side .price {
+        font-size: 34px;
+    }
+
+    .img_side img {
+        width: 320px;
+    }
+}
+
+/* Tablet devices */
+@media (max-width: 992px) {
+    body {
+        margin: 0 24px;
+    }
+
+    /* Categories wrap */
+    .categories {
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .categories-section {
+        width: calc(50% - 9px);
+    }
+
+    /* Products stack vertically */
+    .main_shoes,
+    .main_bag {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_shoes .shoes,
+    .main_bag .bags {
+        width: 100%;
+        max-width: 520px;
+    }
+
+    .shoes img,
+    .bags img {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn_pro {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 640px) {
+    body {
+        margin: 0 12px;
+    }
+
+    /* Hero */
+    section {
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+        gap: 20px;
+    }
+
+    .text_side {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .text_side .heading_text {
+        font-size: 28px;
+        padding-top: 18px;
+    }
+
+    .text_side .para_text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .text_side .price {
+        font-size: 28px;
+    }
+
+    .img_side img {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    /* Categories: one column, center aligned */
+    .categories {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .categories-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 18px;
+    }
+
+    .categories-section h3 {
+        padding: 0;
+        text-align: center;
+    }
+
+    .categories-section img {
+        width: 120px;
+        height: auto;
+    }
+
+    /* Product cards full-width and stacked, inner content centered */
+    .main_shoes .shoes,
+    .main_bag .bags {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+        box-sizing: border-box;
+        height: auto;
+    }
+
+    .shoes h3,
+    .bags h3 {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .shoes p,
+    .main_bag p {
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .buy_btn,
+    .btn_pro {
+        margin: 18px auto;
+        display: inline-block;
+    }
+
+    .btn_pro {
+        margin-left: 0;
+    }
+
+    /* Newsletter */
+    .newsletter_input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .input_section {
+        width: 100%;
+        max-width: 420px;
+        padding: 12px 18px;
+        border-radius: 5px;
+    }
+
+    .btn_send {
+        width: 100%;
+        max-width: 420px;
+        border-radius: 5px;
+        padding: 12px 18px;
+        margin-left: 0;
+    }
 }
