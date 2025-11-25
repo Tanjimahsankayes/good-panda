@@ -225,6 +225,17 @@ section {
     margin-left: -10px;
 }
 
+.newsletter {
+    background-color: #FFF2F1;
+    padding: 90px 190px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.newsletter_input button {
+    margin-left: -10px;
+}
+
 .btn_send {
     color: white;
     outline: none;
@@ -269,6 +280,11 @@ section {
     .img_side img {
         width: 320px;
     }
+
+    /* Newsletter adjustments for large laptops */
+    .newsletter {
+        padding: 70px 100px;
+    }
 }
 
 /* Tablet devices */
@@ -310,6 +326,11 @@ section {
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+
+    /* Newsletter for tablets */
+    .newsletter {
+        padding: 48px 40px;
     }
 }
 
@@ -433,5 +454,9 @@ section {
         border-radius: 5px;
         padding: 12px 18px;
         margin-left: 0;
+    }
+
+    .newsletter {
+        padding: 24px 12px;
     }
 }
